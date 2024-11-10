@@ -5,3 +5,83 @@
     margin: 0;
     padding: 0;
 }
+
+
+body {
+    background-color: #222;
+    color: aliceblue
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    color:aliceblue;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#catio-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* catio header */
+
+#catio-header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px 50px;
+}
+
+#catio-header-top {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#catio-header-top-battery {
+    background-color: rgb(34, 8, 0);
+    width: 250px;
+    height: 20px;
+}
+
+#catio-header-body {
+    background-color: azure;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-size: 32px;
+}
+
+/* catio body */
+
+#catio-body {
+    background-color: lightgrey;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.catio-body-button {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-color: darkgray;
+    padding: 3px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
